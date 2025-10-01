@@ -9,7 +9,7 @@ import {
 const CollegeCard = ({ college, onAction, actionLabel, disabled = false }) => {
     return (
         <CardContainer>
-            <CollegeName>{college.college_name}</CollegeName>
+            <CollegeName>{college.collage_name}</CollegeName>
             <CollegeInfo>Location: {college.location}</CollegeInfo>
             <CollegeInfo>Course: {college.course}</CollegeInfo>
             <CollegeInfo>Fee: ₹{college.fee}</CollegeInfo>
